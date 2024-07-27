@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketball" translatesAutoresizingMaskIntoConstraints="NO" id="Lak-1s-2QW">
+                                <rect key="frame" x="61" y="123" width="271" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="dtc-t2-vM9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="hpD-jc-EWq">
+                                <rect key="frame" x="60" y="385" width="271" height="167"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Courtside Insight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvQ-6e-g1y">
+                                <rect key="frame" x="37" y="635" width="319" height="45.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="319" id="z1U-p0-4hm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tvQ-6e-g1y" firstAttribute="top" secondItem="hpD-jc-EWq" secondAttribute="bottom" constant="83" id="9Va-1Q-ksa"/>
+                            <constraint firstItem="Lak-1s-2QW" firstAttribute="centerX" secondItem="tvQ-6e-g1y" secondAttribute="centerX" id="9m5-ZS-oBb"/>
+                            <constraint firstItem="tvQ-6e-g1y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="A3X-yZ-fYc"/>
+                            <constraint firstItem="hpD-jc-EWq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="D8q-j9-qac"/>
+                            <constraint firstItem="Lak-1s-2QW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="DX8-IY-laq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tvQ-6e-g1y" secondAttribute="trailing" constant="37" id="G5u-3e-wxB"/>
+                            <constraint firstItem="hpD-jc-EWq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="326" id="PQ7-7E-D1F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hpD-jc-EWq" secondAttribute="trailing" constant="62" id="Yv7-nI-ACu"/>
+                            <constraint firstItem="Lak-1s-2QW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="i6f-7t-9I7"/>
+                            <constraint firstItem="tvQ-6e-g1y" firstAttribute="top" secondItem="Lak-1s-2QW" secondAttribute="bottom" constant="242" id="wRK-1F-jmh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-106.10687022900763" y="269.71830985915494"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="basketball" width="676" height="380"/>
+        <image name="images" width="293" height="172"/>
+    </resources>
+</document>

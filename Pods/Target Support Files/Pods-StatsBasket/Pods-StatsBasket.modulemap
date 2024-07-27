@@ -1,0 +1,6 @@
+framework module Pods_StatsBasket {
+  umbrella header "Pods-StatsBasket-umbrella.h"
+
+  export *
+  module * { export * }
+}
